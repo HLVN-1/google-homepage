@@ -1,11 +1,33 @@
 nav {
     display: block;
+
+}
+
+#about {
+    display: block;
+    float: left;
+}
+
+#store {
+    display: block;
+    float: left;
+}
+
+#gmail {
+    display: block;
+    float: right;
+}
+
+#images {
+    display: block;
+    float: right;
 }
 
 #logo {
     display: block;
     margin: auto;
     width: 50%;
+    
 }
 
 img {
