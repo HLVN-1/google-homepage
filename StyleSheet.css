@@ -1,11 +1,29 @@
+nav {
+    display: block;
+}
+
 #logo {
+    display: block;
     margin: auto;
     width: 50%;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
 }
 
 #search {
     margin: auto;
     width: 75%;
     border-radius: 20px;
+    display: block;
 }
 
+.buttons {
+    margin: auto;
+    width: 20%;
+    display: block;
+}
