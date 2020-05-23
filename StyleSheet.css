@@ -1,3 +1,5 @@
+/* This is copying and testing of blaze-vincent's CSS */
+
 body {
     background-color: fff;
     font-family: Arial,sans-serif;
@@ -11,67 +13,161 @@ nav {
     height: 2em;
     padding: 7px;
 }
+
+#nav-buttons {
+    display: flex;
+    flex-flow: row;
+}
 #nav-righthand{
    display: flex;
    flex-flow: row;
    align-items: center; 
-   margin: 0 15px 0 0;
 }
-#nav-lefthand{
-    display: flex;
-    flex-flow: row;
-    align-items: center;
+
+#nav-righthand a {
     margin: 0 0 0 15px;
 }
 
-/*
-#about {
-    display: block;
-    float: left;
+#nav-lefthand{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 6.2em;
+    margin-left: 10px;
 }
 
-#store {
-    display: block;
-    float: left;
+a {
+    color: #000;
+    text-decoration: none;
+    opacity: 0.75;
 }
 
-#gmail {
-    display: block;
-    float: right;
+#media-button{
+    opacity: 0.75;
+    content: url(https://static.thenounproject.com/png/3095017-200.png);
+    height: 2em;
+    width: 2em;
+    align-self: center;
+    margin-left: 30px;
 }
 
-#images {
+#sign-in-button {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    color: #fff;
+    height: 2.5em;
+    width: 6em;
     display: block;
-    float: right;
+    background: -moz-linear-gradient(top,#4387fd,#4683ea);
+    border-radius: 2px;
+    margin-left: 30px;
+    margin-right: 15px;
+} 
+
+#sign-in-button p {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 13%;
 }
-*/
+
 main{
     display: flex;
     flex-flow: column;
     align-items: center;
 }
 #logo {
-    width: 50%;
+    width: 272px;
     padding-top: 130px;
     height: auto;
     }
-
+/*
 img {
     width: 50%;
     height: auto;
     margin: auto;
     display: block;
 }
-
+*/
 #search {
-    margin: auto;
-    width: 75%;
-    border-radius: 20px;
-    display: block;
+    opacity: 0.75;
+    padding-top: 30px;
+    width: 484px;
+    height: 46px;
+}
+
+#search input{
+    width: inherit;
+    height: inherit;
+    border-radius: 5000px;
+}
+
+#search img{
+    opacity: 0.75;
+    position: relative;
+    height: 20px;
+    width: auto;
+    top: -32.5px;
+    left: 15px;
 }
 
 #search-buttons {
-    margin: auto;
-    width: 20%;
-    display: block;
+    padding-top: 15px;
+    display: flex;
+    flex-flow: row;
+}
+
+#search-buttons p {
+    color: #5F6368;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    margin: 8px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+}
+
+#tips {
+    padding-top: 15px;
+    font-size: small;
+    color: lightcoral;
+}
+#tips:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #f2f2f2;
+}
+
+#footer-left, #footer-right {
+    display: flex;
+    flex-flow: row;
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer-left a, #footer-right a{
+    font-size: 14px;
+    opacity: 0.75;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer-right {
+    justify-content: right;
+}
+
+#footer-left a:hover, #footer-right a:hover {
+    text-decoration: underline;
 }

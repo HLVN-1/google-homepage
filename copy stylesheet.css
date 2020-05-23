@@ -1,0 +1,79 @@
+/* this is before using blace-vincent's css. My own attempt below with some help */
+
+body {
+    background-color: fff;
+    font-family: Arial,sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    height: 2em;
+    padding: 7px;
+}
+#nav-righthand{
+   display: flex;
+   flex-flow: row;
+   align-items: center; 
+   margin: 0 15px 0 0;
+}
+#nav-lefthand{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin: 0 0 0 15px;
+}
+
+/*
+#about {
+    display: block;
+    float: left;
+}
+
+#store {
+    display: block;
+    float: left;
+}
+
+#gmail {
+    display: block;
+    float: right;
+}
+
+#images {
+    display: block;
+    float: right;
+}
+*/
+main{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#logo {
+    width: 50%;
+    padding-top: 130px;
+    height: auto;
+    }
+
+img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+#search {
+    margin: auto;
+    width: 75%;
+    border-radius: 20px;
+    display: block;
+}
+
+#search-buttons {
+    margin: auto;
+    width: 20%;
+    display: block;
+}
