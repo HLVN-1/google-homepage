@@ -1,8 +1,30 @@
-nav {
-    display: block;
-
+body {
+    background-color: fff;
+    font-family: Arial,sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    height: 2em;
+    padding: 7px;
+}
+#nav-righthand{
+   display: flex;
+   flex-flow: row;
+   align-items: center; 
+   margin: 0 15px 0 0;
+}
+#nav-lefthand{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin: 0 0 0 15px;
+}
+
+/*
 #about {
     display: block;
     float: left;
@@ -22,13 +44,17 @@ nav {
     display: block;
     float: right;
 }
-
-#logo {
-    display: block;
-    margin: auto;
-    width: 50%;
-    
+*/
+main{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
+#logo {
+    width: 50%;
+    padding-top: 130px;
+    height: auto;
+    }
 
 img {
     width: 50%;
